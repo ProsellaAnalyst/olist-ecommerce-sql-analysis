@@ -2,6 +2,5 @@
   "name": "Olist SQL Analysis",
   "image": "mcr.microsoft.com/devcontainers/postgresql:14",
   "forwardPorts": [5432],
-  "remoteUser": "vscode",
-  "postCreateCommand": "sudo -u postgres psql -c \"CREATE DATABASE olist;\""
+  "remoteUser": "postgres"
 }
