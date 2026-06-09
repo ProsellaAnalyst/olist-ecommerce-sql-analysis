@@ -31,6 +31,7 @@ Custom schema diagram (tables used in this project):
 
 ## Project Structure
 olist-ecommerce-sql-analysis/
+
 ├── sql/
 
 │   ├── 01_create_tables.sql
