@@ -1,0 +1,12 @@
+{
+  "name": "Olist SQL Analysis",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/itsmechlark/features/postgresql:1": {
+      "version": "14"
+    }
+  },
+  "postCreateCommand": "sudo service postgresql start && sudo -u postgres psql -c \"CREATE DATABASE olist;\"",
+  "forwardPorts": [5432],
+  "remoteUser": "vscode"
+}
