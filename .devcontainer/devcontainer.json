@@ -1,6 +1,12 @@
 {
   "name": "Olist SQL Analysis",
-  "image": "mcr.microsoft.com/devcontainers/postgresql:14",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/devcontainers/features/postgresql:1": {
+      "version": "14"
+    }
+  },
   "forwardPorts": [5432],
-  "remoteUser": "postgres"
+  "remoteUser": "vscode",
+  "postCreateCommand": "sudo service postgresql start && sudo -u postgres createdb olist"
 }
