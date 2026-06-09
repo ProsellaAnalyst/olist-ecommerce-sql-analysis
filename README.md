@@ -32,15 +32,25 @@ Custom schema diagram (tables used in this project):
 ## Project Structure
 olist-ecommerce-sql-analysis/
 ├── sql/
+
 │   ├── 01_create_tables.sql
+
 │   ├── 02_load_data.sql
+
 │   ├── 03_data_cleaning.sql
+
 │   └── 04_analysis.sql
+
 ├── images/
+
 │   ├── olist_schema.png
+
 │   └── custom_schema.png
+
 ├── .gitignore
+
 ├── LICENSE
+
 └── README.md
 
 ## Key Business Questions
