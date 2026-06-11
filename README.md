@@ -5,8 +5,8 @@ patterns, customer behavior, and product performance using PostgreSQL, with insi
 structured to support predictive modeling.
 
 ## Dataset
-Public e-commerce dataset provided by Olist, available on 
-[Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
+Public e-commerce dataset provided by Olist, available on Kaggle
+[here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
 Contains 100k+ orders from 2016–2018 across multiple Brazilian marketplaces.
 
 ## Objectives
