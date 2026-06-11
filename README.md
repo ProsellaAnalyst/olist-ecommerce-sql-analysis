@@ -23,8 +23,9 @@ Contains 100k+ orders from 2016–2018 across multiple Brazilian marketplaces.
 
 ## Schema
 Official Olist schema (sourced from Kaggle):  
-![Schema](<img width="2486" height="1496" alt="Olist schema" src="https://github.com/user-attachments/assets/f10216ac-45df-45e3-afc2-461a30fd4c18" />
-)
+<img width="619" height="382" alt="image" src="https://github.com/user-attachments/assets/f0d0c9d8-cdd1-485b-abad-5dc1ba686138" />
+
+
 
 Custom schema diagram (tables used in this project):  
 ![Custom Schema](images/custom_schema.png)
