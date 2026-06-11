@@ -29,31 +29,6 @@ Official Olist schema (sourced from Kaggle):
 Custom schema diagram (tables used in this project):  
 ![Custom Schema](images/custom_schema.png)
 
-## Project Structure
-olist-ecommerce-sql-analysis/
-
-├── sql/
-
-│   ├── 01_create_tables.sql
-
-│   ├── 02_load_data.sql
-
-│   ├── 03_data_cleaning.sql
-
-│   └── 04_analysis.sql
-
-├── images/
-
-│   ├── olist_schema.png
-
-│   └── custom_schema.png
-
-├── .gitignore
-
-├── LICENSE
-
-└── README.md
-
 ## Key Business Questions
 1. What are the monthly and quarterly revenue trends — are sales growing?
 2. Which product categories drive the most revenue vs. highest order volume?
