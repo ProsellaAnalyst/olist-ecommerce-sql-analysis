@@ -8,7 +8,6 @@ CREATE TABLE customers (
     customer_state VARCHAR(30)
 ); 
 
-
 -- Order Items
 DROP TABLE IF EXISTS order_items;
 CREATE TABLE order_items (
@@ -22,3 +21,14 @@ CREATE TABLE order_items (
 );
 
 
+-- Order Payments
+DROP TABLE IF EXISTS order_payments;
+CREATE TABLE order_payments(
+    order_id VARCHAR(50),
+    payments_sequential CHAR(30),
+    payment_type VARCHAR(20),
+    payments_installments CHAR(10),
+    payment_value NUMERIC(10,2)
+)
+
+SELECT * FROM order_payments
