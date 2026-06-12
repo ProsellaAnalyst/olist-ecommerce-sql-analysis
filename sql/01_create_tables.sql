@@ -72,10 +72,7 @@ CREATE TABLE order_items (
     price NUMERIC(10,2),
     freight_value NUMERIC(10,2),
 
-    PRIMARY KEY (order_id, order_item_id),
-    FOREIGN KEY (order_id) REFERENCES orders(order_id),
-    FOREIGN KEY (product_id) REFERENCES products(product_id),
-    FOREIGN KEY (seller_id) REFERENCES sellers(seller_id)
+    PRIMARY KEY (order_id, order_item_id)
 );
 
 
