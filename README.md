@@ -28,7 +28,8 @@ Official Olist schema (sourced from Kaggle):
 
 
 Custom schema diagram (tables used in this project):  
-![Custom Schema](images/custom_schema.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9e8744fb-ebb8-453b-b5ab-72fd15aa2b82" />
+
 
 ## Key Business Questions
 1. What are the monthly and quarterly revenue trends — are sales growing?
