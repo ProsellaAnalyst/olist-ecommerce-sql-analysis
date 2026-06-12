@@ -58,3 +58,33 @@ CREATE TABLE orders (
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
+-- Products
+DROP TABLE IF EXISTS products;
+CREATE TABLE products(
+    product_id VARCHAR(60) PRIMARY KEY,
+    product_category_name VARCHAR(60),
+    product_name_length INT,
+    product_description_length INT,
+    product_photos_qty INT,
+    product_weight_g INT,
+    product_length_cm INT,
+    product_height_cm INT,
+    product_width_cm INT
+);
+
+-- Sellers
+DROP TABLE IF EXISTS sellers;
+CREATE TABLE sellers (
+    seller_id VARCHAR(60) PRIMARY KEY,
+    seller_zip_code_prefix VARCHAR(10),
+    seller_city VARCHAR(50),
+    seller_state VARCHAR(10)
+);
+
+
+-- Products category translation
+DROP TABLE IF EXISTS product_category_translation;
+CREATE TABLE product_category_translation (
+    product_category_name VARCHAR(60) PRIMARY KEY,
+    product_category_name_english VARCHAR(60)
+);
