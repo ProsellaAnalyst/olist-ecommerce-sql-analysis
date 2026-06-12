@@ -5,8 +5,8 @@ patterns, customer behavior, and product performance using PostgreSQL, with insi
 structured to support predictive modeling.
 
 ## Dataset
-Public e-commerce dataset provided by Olist, available on 
-[Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
+Public e-commerce dataset provided by Olist, available on Kaggle
+[here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
 Contains 100k+ orders from 2016–2018 across multiple Brazilian marketplaces.
 
 ## Objectives
@@ -23,36 +23,12 @@ Contains 100k+ orders from 2016–2018 across multiple Brazilian marketplaces.
 
 ## Schema
 Official Olist schema (sourced from Kaggle):  
-![Schema](<img width="2486" height="1496" alt="Olist schema" src="https://github.com/user-attachments/assets/f10216ac-45df-45e3-afc2-461a30fd4c18" />
-)
+<img width="619" height="382" alt="image" src="https://github.com/user-attachments/assets/f0d0c9d8-cdd1-485b-abad-5dc1ba686138" />
+
+
 
 Custom schema diagram (tables used in this project):  
 ![Custom Schema](images/custom_schema.png)
-
-## Project Structure
-olist-ecommerce-sql-analysis/
-
-├── sql/
-
-│   ├── 01_create_tables.sql
-
-│   ├── 02_load_data.sql
-
-│   ├── 03_data_cleaning.sql
-
-│   └── 04_analysis.sql
-
-├── images/
-
-│   ├── olist_schema.png
-
-│   └── custom_schema.png
-
-├── .gitignore
-
-├── LICENSE
-
-└── README.md
 
 ## Key Business Questions
 1. What are the monthly and quarterly revenue trends — are sales growing?
