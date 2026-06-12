@@ -1,0 +1,4 @@
+-- Customers
+CREATE TABLE customers (
+    
+)
