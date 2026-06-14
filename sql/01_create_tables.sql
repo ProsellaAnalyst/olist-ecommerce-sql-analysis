@@ -38,26 +38,21 @@ CREATE TABLE products (
     product_weight_g INT,
     product_length_cm INT,
     product_height_cm INT,
-    product_width_cm INT,
-
-    FOREIGN KEY (product_category_name)
-        REFERENCES product_category_translation(product_category_name)
+    product_width_cm INT
 );
 
 
 -- ORDERS
 DROP TABLE IF EXISTS orders;
 CREATE TABLE orders (
-    order_id CHAR(32) PRIMARY KEY,
+    order_id CHAR(32),
     customer_id CHAR(32),
     order_status VARCHAR(20),
     order_purchase_timestamp TIMESTAMP,
     order_approved_at TIMESTAMP,
     order_delivered_carrier_date TIMESTAMP,
     order_delivered_customer_date TIMESTAMP,
-    order_estimated_delivery_date TIMESTAMP,
-
-    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+    order_estimated_delivery_date TIMESTAMP
 );
 
 
@@ -70,9 +65,7 @@ CREATE TABLE order_items (
     seller_id CHAR(32),
     shipping_limit_date TIMESTAMP,
     price NUMERIC(10,2),
-    freight_value NUMERIC(10,2),
-
-    PRIMARY KEY (order_id, order_item_id)
+    freight_value NUMERIC(10,2)
 );
 
 
@@ -83,22 +76,18 @@ CREATE TABLE order_payments (
     payment_sequential INT,
     payment_type VARCHAR(20),
     payment_installments INT,
-    payment_value NUMERIC(10,2),
-
-    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+    payment_value NUMERIC(10,2)
 );
 
 
 -- ORDER REVIEWS
 DROP TABLE IF EXISTS order_reviews;
 CREATE TABLE order_reviews (
-    review_id CHAR(32) PRIMARY KEY,
+    review_id CHAR(32),
     order_id CHAR(32),
-    review_score INT CHECK (review_score BETWEEN 1 AND 5),
+    review_score INT,
     review_comment_title TEXT,
     review_comment_message TEXT,
     review_creation_date TIMESTAMP,
-    review_answer_timestamp TIMESTAMP,
-
-    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+    review_answer_timestamp TIMESTAMP
 );

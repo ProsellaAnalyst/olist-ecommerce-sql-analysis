@@ -3,7 +3,7 @@
 COPY product_category_translation
 FROM '/workspaces/olist-ecommerce-sql-analysis/data/product_category_name_translation.csv'
 DELIMITER ',' CSV HEADER;
-
+SELECT * FROM product_category_translation
 
 -- Customers
 COPY customers
