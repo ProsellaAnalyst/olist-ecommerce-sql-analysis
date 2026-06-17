@@ -19,7 +19,7 @@ Contains 100k+ orders from 2016–2018 across multiple Brazilian marketplaces.
 ## Tools
 - PostgreSQL
 - GitHub Codespaces
-- Draw.io
+
 
 ## Schema
 Official Olist schema (sourced from Kaggle):  
