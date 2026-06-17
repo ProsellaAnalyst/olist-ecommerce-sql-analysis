@@ -41,7 +41,6 @@ Custom schema diagram (tables used in this project):
 7. Which months show the highest cancellation rates and why?
 
    
-
 ## Key Findings & Business Recommendations
 
 ### 1. Monthly Revenue Trends
@@ -50,47 +49,85 @@ $1.15M in November (likely driven by Brazil's Black Friday season) — then plat
 through 2018, hovering between $1.0M–$1.1M monthly rather than continuing to climb.
 
 **Recommendation:** Growth stalled in year two after a strong year-one ramp. 
-Leadership should investigate whether this plateau reflects market saturation, 
-increased competition, or reduced marketing/acquisition spend. Given the strong 
-November spike, doubling down on seasonal campaigns (Black Friday, holiday season) 
-while testing demand-generation tactics in historically flatter months (April–August) 
-could reignite growth.
+Leadership should investigate whether this reflects market saturation, increased 
+competition, or reduced marketing spend. Doubling down on seasonal campaigns 
+(Black Friday, holidays) while testing demand-generation in flatter months 
+(April–August) could reignite growth.
 
 ---
 
 ### 2. Product Categories — Revenue vs. Order Volume
 `health_beauty` leads in revenue ($1.23M) and `bed_bath_table` leads in order volume 
 (9,272 orders), but `watches_gifts` stands out — ranking #2 in revenue ($1.17M) with 
-far fewer orders (5,495) than categories below it, signaling a much higher average 
-order value per transaction.
+far fewer orders (5,495), signaling a much higher average order value per transaction.
 
-**Recommendation:** `watches_gifts` is a high-value, lower-volume category — a strong 
-candidate for premium positioning, targeted upselling, and higher-margin marketing 
-spend. High-volume but lower-revenue categories like `bed_bath_table` and 
-`sports_leisure` may benefit more from bundling strategies or cross-sells to increase 
-basket size rather than just driving more individual orders.
+**Recommendation:** `watches_gifts` is high-value, lower-volume — a strong candidate 
+for premium positioning and higher-margin marketing spend. High-volume, lower-revenue 
+categories like `bed_bath_table` may benefit more from bundling to increase basket 
+size rather than just driving more orders.
 
 ---
 
 ### 3. Customer Lifetime Value & Repeat Purchases
-The vast majority of customers placed only one order — even among the highest 
+The vast majority of customers placed only one order, even among the highest 
 spenders. Very few customers made repeat purchases, and repeat customers don't 
-necessarily rank among the highest total spenders.
+necessarily rank among the highest spenders.
 
-**Recommendation:** Repeat purchase behavior is rare, even among high-value 
-customers — pointing to a retention gap, not just an acquisition one. The business 
-should prioritize post-purchase engagement (personalized follow-ups, loyalty 
-incentives, retargeting) for customers who make a single large purchase, since they 
-show willingness to spend but aren't returning. Capturing even a small percentage of 
-these one-time high spenders as repeat customers could meaningfully boost overall 
-revenue without additional acquisition costs.
+**Recommendation:** Repeat purchase behavior is rare even among high-value customers 
+— pointing to a retention gap, not just an acquisition one. Prioritizing post-purchase 
+engagement (personalized follow-ups, loyalty incentives) for high-spend, one-time 
+buyers could meaningfully boost revenue without new acquisition costs.
 
 ---
 
-### 4. Seller Performance 
+### 4. Seller Performance — Revenue vs. Review Scores
+Top sellers by revenue don't always have the best review scores. The highest earner 
+($228K revenue, 1,124 orders) holds a solid 4.12 average score, but other 
+high-revenue sellers dip into the 3.3–3.8 range despite high order volume — 
+suggesting scale alone doesn't guarantee customer satisfaction.
 
-### 5. Delivery Time vs. Review Scores 
+**Recommendation:** Sellers generating high revenue with below-average review scores 
+(e.g. 3.35–3.8 range) should be flagged for a service quality review — they're likely 
+sitting on hidden churn risk. Meanwhile, high-revenue *and* high-score sellers (4.2+) 
+represent the platform's benchmark and ideal partner profile to replicate.
 
-### 6. Payment Methods & Installments 
+---
 
-### 7. Cancellation Rates by Month 
+### 5. Delivery Time vs. Review Scores
+Correlation coefficient: **-0.33**
+
+A moderate negative relationship — longer delivery times are associated with lower 
+review scores, but delivery speed isn't the only factor driving satisfaction.
+
+**Recommendation:** Delivery speed matters but isn't the full story. Improving 
+logistics will likely raise review scores somewhat, but the business should also 
+investigate other satisfaction drivers (product quality, seller communication) 
+rather than treating delivery time as a silver bullet.
+
+---
+
+### 6. Payment Methods & Installments
+Installment payments average **$196.76** per transaction (51,338 payments) vs. 
+**$112.42** for single payments (52,548 payments) — installment users spend nearly 
+**75% more** on average.
+
+**Recommendation:** Installment options are clearly driving higher basket sizes. 
+The business should promote installment payment options more prominently at 
+checkout, particularly for higher-value product categories like `watches_gifts` 
+and `health_beauty`, to encourage larger purchases.
+
+---
+
+### 7. Cancellation Rates by Month
+Cancellation rates are negligible in most months (under 1.5%), but **October 2016** 
+shows a striking 7.41% cancellation rate, and a few isolated months in 2018 
+(September, October) show near-100% cancellation — though on very small order 
+counts (4–16 orders), suggesting these are early/late data edge cases rather than 
+a genuine trend.
+
+**Recommendation:** The October 2016 spike (7.41% on 324 orders) is the only 
+statistically meaningful cancellation anomaly and warrants investigation — it 
+coincides with Olist's early platform period, possibly reflecting onboarding issues 
+with new sellers or unstable fulfillment processes during that phase. The 2018 
+near-100% spikes are based on too few orders to be actionable and likely reflect 
+incomplete end-of-dataset records.Rates by Month 
