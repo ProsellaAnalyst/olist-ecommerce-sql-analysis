@@ -43,5 +43,5 @@ Custom schema diagram (tables used in this project):
 ## Key Findings
 _To be updated as analysis progresses._
 
-## Status
-🚧 In progress
+ ## Bussiness Recommendations
+ 
