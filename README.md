@@ -131,5 +131,18 @@ a genuine trend.
 statistically meaningful cancellation anomaly and warrants investigation — it 
 coincides with Olist's early platform period, possibly reflecting onboarding issues 
 with new sellers or unstable fulfillment processes during that phase. The 2018 
+
+
+----
+
+## Summary
+This analysis shows a platform with strong early growth that plateaued in its 
+second year, a customer base that rarely returns after a first purchase, and 
+performance gaps between high-revenue and high-satisfaction sellers. The clearest 
+opportunities lie in customer retention, promoting installment payments to lift 
+average order value, and a deeper investigation into the small but real cluster of 
+delivery-related dissatisfaction. Together, these findings point toward a business 
+that has proven demand but hasn't yet built the retention and seller-quality systems 
+needed to sustain growth beyond its first wave of customers.
 near-100% spikes are based on too few orders to be actionable and likely reflect 
 incomplete end-of-dataset records.Rates by Month 
