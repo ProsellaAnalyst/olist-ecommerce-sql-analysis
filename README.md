@@ -91,6 +91,8 @@ suggesting scale alone doesn't guarantee customer satisfaction.
 sitting on hidden churn risk. Meanwhile, high-revenue *and* high-score sellers (4.2+) 
 represent the platform's benchmark and ideal partner profile to replicate.
 
+<img width="514" height="293" alt="image" src="https://github.com/user-attachments/assets/533384df-31ef-428b-a003-13cbd0f99bc1" />
+
 ---
 
 ### 5. Delivery Time vs. Review Scores
