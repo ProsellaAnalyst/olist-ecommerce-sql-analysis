@@ -76,6 +76,15 @@ FROM orders o
 JOIN order_reviews r ON o.order_id = r.order_id
 WHERE o.order_delivered_customer_date IS NOT NULL;
 
+SELECT
+    r.review_score,
+    ROUND(AVG(EXTRACT(DAY FROM (o.order_delivered_customer_date - o.order_purchase_timestamp))), 2) AS avg_delivery_days
+FROM orders o
+JOIN order_reviews r ON o.order_id = r.order_id
+WHERE o.order_delivered_customer_date IS NOT NULL
+GROUP BY r.review_score
+ORDER BY r.review_score;
+
 
 -- What payment methods dominate, and do installment users spend more overall?
 SELECT
