@@ -76,10 +76,8 @@ Revenue grew sharply through 2017 — from roughly $400K in January to a peak of
 
 `health_beauty` leads in revenue ($1.23M) and `bed_bath_table` leads in order volume (9,272 orders), but `watches_gifts` stands out — ranking **#2 in revenue ($1.17M) with far fewer orders (5,495)**, signalling a much higher average order value per transaction.
 
-<img width="1278" height="1182" alt="chart_volume_vs_value" src="https://github.com/user-attachments/assets/52c7f5e5-e36b-4e1e-9795-99e3af97911e" />
+<img width="1632" height="1331" alt="image" src="https://github.com/user-attachments/assets/beb2a1d8-9575-49d0-be1c-c17af3f1c9a2" />
 
-
-> Color intensity = average order value. Top-right = high revenue + high volume. Top-left = high revenue, fewer orders (premium positioning).
 
 **Recommendation:** `watches_gifts` is high-value, lower-volume — a strong candidate for premium positioning and higher-margin marketing spend. High-volume, lower-revenue categories like `bed_bath_table` may benefit more from bundling to increase basket size rather than just driving more orders.
 
