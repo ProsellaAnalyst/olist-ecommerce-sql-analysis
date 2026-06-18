@@ -145,4 +145,4 @@ delivery-related dissatisfaction. Together, these findings point toward a busine
 that has proven demand but hasn't yet built the retention and seller-quality systems 
 needed to sustain growth beyond its first wave of customers.
 near-100% spikes are based on too few orders to be actionable and likely reflect 
-incomplete end-of-dataset records.Rates by Month 
+incomplete end-of-dataset records.
