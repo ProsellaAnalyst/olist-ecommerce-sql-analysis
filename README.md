@@ -66,6 +66,9 @@ for premium positioning and higher-margin marketing spend. High-volume, lower-re
 categories like `bed_bath_table` may benefit more from bundling to increase basket 
 size rather than just driving more orders.
 
+
+
+
 ---
 
 ### 3. Customer Lifetime Value & Repeat Purchases
@@ -85,6 +88,8 @@ Top sellers by revenue don't always have the best review scores. The highest ear
 ($228K revenue, 1,124 orders) holds a solid 4.12 average score, but other 
 high-revenue sellers dip into the 3.3–3.8 range despite high order volume — 
 suggesting scale alone doesn't guarantee customer satisfaction.
+
+
 
 **Recommendation:** Sellers generating high revenue with below-average review scores 
 (e.g. 3.35–3.8 range) should be flagged for a service quality review — they're likely 
